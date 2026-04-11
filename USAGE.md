@@ -31,6 +31,6 @@ The System Harness enforces an obligatory analytical phase prior to payload gene
 
 ## 3. Operational Best Practices
 
-- **Prevent Context Degradation**: Do not reuse sessions across disparate targets or vulnerability classes. Context pollution introduces analytical flaws. Always initialize a new session and deploy a fresh Harness for every new analysis.
-- **Strict Data Integrity**: Provide raw, unsummarized target data. Summarization introduces human bias and conceals subtle architectural discrepancies (e.g., misconfigured `Content-Type` headers or improper edge caching configurations) critical for vulnerability detection.
-- **Mandatory Verification**: The payloads derived from this architecture are theoretical and hypothesis-driven. Researchers must execute the derived payloads, analyze the behavioral delta returned by the target application, and confirm the exploit path. The model output is a high-level operational starting point, not a definitive conclusion.
+* **Prevent Context Degradation**: Do not reuse sessions across disparate targets or vulnerability classes. Context pollution introduces analytical flaws. Always initialize a new session and deploy a fresh Harness for every new analysis.
+* **Strict Data Integrity**: Provide raw, unsummarized target data. Summarization introduces human bias and conceals subtle architectural discrepancies (e.g., misconfigured `Content-Type` headers or improper edge caching configurations) critical for vulnerability detection.
+* **Mandatory Verification**: The payloads derived from this architecture are theoretical and hypothesis-driven. Researchers must execute the derived payloads, analyze the behavioral delta returned by the target application, and confirm the exploit path. The model output is a high-level operational starting point, not a definitive conclusion.
