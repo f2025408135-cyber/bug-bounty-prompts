@@ -10,15 +10,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -33,15 +39,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -56,15 +68,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -79,15 +97,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -102,15 +126,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -125,15 +155,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -148,15 +184,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -171,15 +213,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -194,15 +242,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -217,15 +271,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -240,15 +300,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -263,15 +329,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -286,15 +358,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -309,15 +387,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -332,15 +416,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -355,15 +445,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -378,15 +474,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -401,15 +503,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -424,15 +532,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -447,15 +561,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -470,15 +590,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -493,15 +619,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -516,15 +648,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -539,15 +677,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -562,15 +706,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -585,15 +735,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -608,15 +764,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -631,15 +793,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -654,15 +822,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -677,15 +851,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -700,15 +880,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -723,15 +909,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -746,15 +938,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -769,15 +967,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -792,15 +996,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -815,15 +1025,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -838,15 +1054,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -861,15 +1083,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -884,15 +1112,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -907,15 +1141,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -930,15 +1170,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -953,15 +1199,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -976,15 +1228,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -999,15 +1257,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1022,15 +1286,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1045,15 +1315,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1068,15 +1344,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1091,15 +1373,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1114,15 +1402,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1137,15 +1431,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1160,15 +1460,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1183,15 +1489,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1206,15 +1518,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1229,15 +1547,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1252,15 +1576,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1275,15 +1605,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1298,15 +1634,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1321,15 +1663,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1344,15 +1692,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1367,15 +1721,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1390,15 +1750,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1413,15 +1779,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1436,15 +1808,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1459,15 +1837,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1482,15 +1866,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1505,15 +1895,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1528,15 +1924,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1551,15 +1953,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1574,15 +1982,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1597,15 +2011,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1620,15 +2040,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1643,15 +2069,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1666,15 +2098,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1689,15 +2127,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1712,15 +2156,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1735,15 +2185,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1758,15 +2214,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1781,15 +2243,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1804,15 +2272,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1827,15 +2301,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1850,15 +2330,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1873,15 +2359,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1896,15 +2388,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1919,15 +2417,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1942,15 +2446,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1965,15 +2475,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1988,15 +2504,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2011,15 +2533,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2034,15 +2562,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2057,15 +2591,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2080,15 +2620,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2103,15 +2649,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2126,15 +2678,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2149,15 +2707,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2172,15 +2736,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2195,15 +2765,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2218,15 +2794,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2241,15 +2823,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2264,15 +2852,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2287,15 +2881,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2310,15 +2910,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2333,15 +2939,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2356,15 +2968,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2379,15 +2997,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2402,15 +3026,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2425,15 +3055,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2448,15 +3084,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2471,15 +3113,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2494,15 +3142,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2517,15 +3171,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2540,15 +3200,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2563,15 +3229,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2586,15 +3258,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2609,15 +3287,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2632,15 +3316,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2655,15 +3345,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2678,15 +3374,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2701,15 +3403,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2724,15 +3432,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2747,15 +3461,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2770,15 +3490,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2793,15 +3519,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2816,15 +3548,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2839,15 +3577,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2862,15 +3606,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2885,15 +3635,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2908,15 +3664,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2931,15 +3693,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2954,15 +3722,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2977,15 +3751,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3000,15 +3780,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3023,15 +3809,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3046,15 +3838,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3069,15 +3867,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3092,15 +3896,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3115,15 +3925,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3138,15 +3954,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3161,15 +3983,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3184,15 +4012,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3207,15 +4041,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3230,15 +4070,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3253,15 +4099,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3276,15 +4128,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3299,15 +4157,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3322,15 +4186,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3345,15 +4215,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3368,15 +4244,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3391,15 +4273,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3414,15 +4302,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3437,15 +4331,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3460,15 +4360,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Third-party integration webhook. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3483,15 +4389,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3506,15 +4418,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3529,15 +4447,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Multi-tenant application environment. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3552,15 +4476,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3575,15 +4505,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Mobile application backend API. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3598,15 +4534,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3621,15 +4563,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses underlying operating system calls or external HTTP requests.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Determine if input is sanitized at the edge or passed blindly to backend functions.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how parameter injection could subvert the intended functionality.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common regular expression filters.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common regular expression filters.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3644,15 +4592,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3667,15 +4621,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3690,15 +4650,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase handles user-supplied data in the context of SSRF via SVG Uploads.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3713,15 +4679,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3736,15 +4708,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3759,15 +4737,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3782,15 +4766,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3805,15 +4795,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3828,15 +4824,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Multi-tenant application environment. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3851,15 +4853,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3874,15 +4882,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3897,15 +4911,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3920,15 +4940,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3943,15 +4969,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3966,15 +4998,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express handles user-supplied data in the context of SSRF via XML External Entity (XXE).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3989,15 +5027,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF Filter Bypass via DNS Rebinding.</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4012,15 +5056,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Multi-tenant application environment. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4035,15 +5085,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4058,15 +5114,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) handles user-supplied data in the context of SSRF against Internal Redis Instances.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4081,15 +5143,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4104,15 +5172,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4127,15 +5201,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase handles user-supplied data in the context of SSRF against Internal Redis Instances.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4150,15 +5230,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4173,15 +5259,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4196,15 +5288,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express handles user-supplied data in the context of SSRF Filter Bypass via DNS Rebinding.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4219,15 +5317,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) handles user-supplied data in the context of SSRF via SVG Uploads.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4242,15 +5346,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4265,15 +5375,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4288,15 +5404,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4311,15 +5433,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Multi-tenant application environment. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4334,15 +5462,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4357,15 +5491,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of SSRF via SVG Uploads.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4380,15 +5520,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4403,15 +5549,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4426,15 +5578,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4449,15 +5607,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4472,15 +5636,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of SSRF via XML External Entity (XXE).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4495,15 +5665,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4518,15 +5694,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4541,15 +5723,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4564,15 +5752,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF to Localhost Services within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) handles user-supplied data in the context of SSRF to Localhost Services.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF to Localhost Services. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4587,15 +5781,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4610,15 +5810,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Multi-tenant application environment. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express handles user-supplied data in the context of SSRF via XML External Entity (XXE).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4633,15 +5839,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4656,15 +5868,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4679,15 +5897,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4702,15 +5926,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4725,15 +5955,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4748,15 +5984,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4771,15 +6013,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4794,15 +6042,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4817,15 +6071,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4840,15 +6100,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4863,15 +6129,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4886,15 +6158,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of SSRF via XML External Entity (XXE).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4909,15 +6187,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4932,15 +6216,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4955,15 +6245,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -4978,15 +6274,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5001,15 +6303,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee handles user-supplied data in the context of SSRF against Internal Redis Instances.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5024,15 +6332,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of SSRF via SVG Uploads.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5047,15 +6361,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via DNS Rebinding within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF Filter Bypass via DNS Rebinding.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via DNS Rebinding. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5070,15 +6390,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5093,15 +6419,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5116,15 +6448,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Internal Redis Instances within a Multi-tenant application environment. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway handles user-supplied data in the context of SSRF against Internal Redis Instances.</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Internal Redis Instances. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5139,15 +6477,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5162,15 +6506,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5185,15 +6535,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5208,15 +6564,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase handles user-supplied data in the context of SSRF via XML External Entity (XXE).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5231,15 +6593,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 6 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5254,15 +6622,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5277,15 +6651,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5300,15 +6680,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via XML External Entity (XXE) within a Mobile application backend API. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF via XML External Entity (XXE).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via XML External Entity (XXE). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5323,15 +6709,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5346,15 +6738,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF Filter Bypass via Octal IP Encodings within a Multi-tenant application environment. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) handles user-supplied data in the context of SSRF Filter Bypass via Octal IP Encodings.</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF Filter Bypass via Octal IP Encodings. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5369,15 +6767,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (GCP/Azure) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) handles user-supplied data in the context of SSRF against Cloud Metadata (GCP/Azure).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (GCP/Azure). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 7 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5392,15 +6796,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5415,15 +6825,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via PDF Generation within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase handles user-supplied data in the context of SSRF via PDF Generation.</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via PDF Generation. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 5 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5438,15 +6854,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) handles user-supplied data in the context of SSRF via SVG Uploads.</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Denial of service via internal loopback requests.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5461,15 +6883,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF against Cloud Metadata (AWS IMDSv2) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) handles user-supplied data in the context of SSRF against Cloud Metadata (AWS IMDSv2).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF against Cloud Metadata (AWS IMDSv2). Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 8 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Pivoting into internal CI/CD pipelines.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5484,15 +6912,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Blind SSRF via Webhooks within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway handles user-supplied data in the context of Blind SSRF via Webhooks.</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on Blind SSRF via Webhooks. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Interaction with unauthenticated administrative microservices.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5507,15 +6941,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via SVG Uploads within a Third-party integration webhook. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) handles user-supplied data in the context of SSRF via SVG Uploads.</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via SVG Uploads. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 4 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -5530,15 +6970,21 @@ A curated, extensive collection of 158 advanced skills for SSRF bug bounty hunti
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting SSRF via Image Processing Library within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing and deep analysis.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) handles user-supplied data in the context of SSRF via Image Processing Library.</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or passed to an insecure deserializer/parser.</step>
     <step>Formulate hypotheses focused on SSRF via Image Processing Library. Map out exactly how the vulnerability could be triggered, bypassing any apparent frontend validation.</step>
-    <step>Generate 3 specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
+    <step>Generate specific, weaponized payloads designed to exploit the logic flow, utilizing advanced evasion techniques if necessary.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Exfiltration of temporary cloud security credentials.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>

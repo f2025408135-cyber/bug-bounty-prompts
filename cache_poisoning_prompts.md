@@ -10,15 +10,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -33,15 +39,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -56,15 +68,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -79,15 +97,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -102,15 +126,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -125,15 +155,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -148,15 +184,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -171,15 +213,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -194,15 +242,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -217,15 +271,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -240,15 +300,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -263,15 +329,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -286,15 +358,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -309,15 +387,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -332,15 +416,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -355,15 +445,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -378,15 +474,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -401,15 +503,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -424,15 +532,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -447,15 +561,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -470,15 +590,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -493,15 +619,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -516,15 +648,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -539,15 +677,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -562,15 +706,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -585,15 +735,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -608,15 +764,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -631,15 +793,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -654,15 +822,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -677,15 +851,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -700,15 +880,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -723,15 +909,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -746,15 +938,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -769,15 +967,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -792,15 +996,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -815,15 +1025,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -838,15 +1054,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -861,15 +1083,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -884,15 +1112,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -907,15 +1141,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -930,15 +1170,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -953,15 +1199,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -976,15 +1228,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -999,15 +1257,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1022,15 +1286,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1045,15 +1315,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1068,15 +1344,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1091,15 +1373,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1114,15 +1402,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1137,15 +1431,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1160,15 +1460,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1183,15 +1489,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1206,15 +1518,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1229,15 +1547,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1252,15 +1576,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1275,15 +1605,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1298,15 +1634,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1321,15 +1663,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1344,15 +1692,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1367,15 +1721,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1390,15 +1750,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1413,15 +1779,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1436,15 +1808,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1459,15 +1837,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1482,15 +1866,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1505,15 +1895,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1528,15 +1924,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Fiber) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Fiber).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1551,15 +1953,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1574,15 +1982,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1597,15 +2011,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1620,15 +2040,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1643,15 +2069,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1666,15 +2098,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1689,15 +2127,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1712,15 +2156,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1735,15 +2185,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1758,15 +2214,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1781,15 +2243,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1804,15 +2272,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1827,15 +2301,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1850,15 +2330,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1873,15 +2359,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1896,15 +2388,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1919,15 +2417,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1942,15 +2446,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1965,15 +2475,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -1988,15 +2504,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2011,15 +2533,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2034,15 +2562,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2057,15 +2591,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2080,15 +2620,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2103,15 +2649,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2126,15 +2678,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2149,15 +2707,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2172,15 +2736,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2195,15 +2765,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2218,15 +2794,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2241,15 +2823,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2264,15 +2852,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2287,15 +2881,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2310,15 +2910,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2333,15 +2939,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2356,15 +2968,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Django (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Django (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2379,15 +2997,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2402,15 +3026,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2425,15 +3055,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2448,15 +3084,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2471,15 +3113,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2494,15 +3142,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2517,15 +3171,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2540,15 +3200,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2563,15 +3229,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2586,15 +3258,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2609,15 +3287,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2632,15 +3316,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2655,15 +3345,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2678,15 +3374,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2701,15 +3403,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Rust (Actix) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Rust (Actix).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2724,15 +3432,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2747,15 +3461,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2770,15 +3490,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2793,15 +3519,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2816,15 +3548,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2839,15 +3577,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2862,15 +3606,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Supabase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Supabase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2885,15 +3635,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2908,15 +3664,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2931,15 +3693,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2954,15 +3722,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Deception within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Deception. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -2977,15 +3751,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Flask (Python) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Flask (Python).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3000,15 +3780,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how FastAPI parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to FastAPI.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3023,15 +3809,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3046,15 +3838,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3069,15 +3867,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Symfony (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Symfony (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3092,15 +3896,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Node.js/Express parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Node.js/Express.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3115,15 +3925,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3138,15 +3954,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3161,15 +3983,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Host Header Injection within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Host Header Injection. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3184,15 +4012,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Relay) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Relay).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3207,15 +4041,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Mobile application backend API. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Mobile application backend API. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3230,15 +4070,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Third-party integration webhook. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Third-party integration webhook. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3253,15 +4099,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3276,15 +4128,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how GraphQL (Apollo) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to GraphQL (Apollo).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3299,15 +4157,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (CL.TE) within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (CL.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3322,15 +4186,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3345,15 +4215,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting H2C Smuggling within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Go (Gin) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on H2C Smuggling. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 3 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Go (Gin).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3368,15 +4244,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Legacy API endpoint slated for deprecation. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Firebase parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Legacy API endpoint slated for deprecation. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Firebase.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3391,15 +4273,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Apigee parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Apigee.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3414,15 +4302,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.TE) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Ruby on Rails parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.TE). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Ruby on Rails.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3437,15 +4331,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Unauthenticated endpoint exposed to the public. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Kong API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Unauthenticated endpoint exposed to the public. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Kong API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3460,15 +4360,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Unkeyed Headers within a Multi-tenant application environment. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how ASP.NET Core parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Multi-tenant application environment. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Unkeyed Headers. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 6 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to ASP.NET Core.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3483,15 +4389,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Internal microservice communicating via proxy. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how AWS API Gateway parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Internal microservice communicating via proxy. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Bypass of frontend WAFs/Proxies to access restricted backend endpoints.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to AWS API Gateway.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3506,15 +4418,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Authenticated endpoint acting as a standard user. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Laravel (PHP) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as a standard user. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 4 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Theft of sensitive user session cookies via Cache Deception.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Laravel (PHP).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3529,15 +4447,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting HTTP Request Smuggling (TE.CL) within a Beta feature accessible via feature flags. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Spring Boot (Java) parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Beta feature accessible via feature flags. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on HTTP Request Smuggling (TE.CL). Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 5 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Spring Boot (Java).
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
@@ -3552,15 +4476,21 @@ A curated, extensive collection of 155 advanced skills for Web Cache Poisoning &
 ```xml
 <skill_module>
   <task_description>
-    Execute the bug bounty analysis based on the overarching description and target area defined above.
+    An extensive operational guide for identifying and exploiting Web Cache Poisoning via Parameter Cloaking within a Authenticated endpoint acting as an administrator. This module is built for rigorous edge-case testing.
   </task_description>
   <execution_steps>
     <step>Deconstruct the input data. Specifically observe how Azure API Management parses requests and interacts with downstream components (e.g., database drivers, XML parsers, caching layers).</step>
     <step>Analyze the context: Authenticated endpoint acting as an administrator. Evaluate if the input is directly reflected, evaluated, or stored before processing.</step>
     <step>Formulate hypotheses focused on Web Cache Poisoning via Parameter Cloaking. Map out exactly how the vulnerability could be triggered in this environment.</step>
-    <step>Generate 7 specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
+    <step>Generate specific, weaponized payloads designed to bypass common WAFs and filter mechanisms.</step>
     <step>Evaluate the potential business impact. If the exploit is successful, assess if it leads to: Execution of Stored XSS on all visitors caching the poisoned page.</step>
   </execution_steps>
+  <output_format>
+  A comprehensive Markdown report section containing:
+  - The analytical breakdown of the flaw.
+  - The weaponized proof-of-concept (curl command or Burp Suite HTTP request).
+  - Remediation advice specific to Azure API Management.
+  </output_format>
   <input_data>
     [PASTE RAW HTTP REQUEST / RESPONSE / CODE SNIPPET HERE. DO NOT FORMAT.]
   </input_data>
